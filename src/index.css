@@ -1,0 +1,43 @@
+.StarwarsIcon {
+    width: 35%;
+    height: 35%;
+}
+
+.navbar .container{
+    align-items: flex-start;
+}
+
+.characterCard,
+.locationCard {
+    display: flex;
+    gap: 1rem;
+}
+
+.cardTitle {
+    font-family: 'Homer Simpson Revised', sans-serif;
+    color: #FFDE00;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000;
+    font-weight: bold;
+    margin: 1rem;
+}
+
+.navbar-brand {
+    font-size:xx-large;
+    font-family: 'Homer Simpson Revised', sans-serif;
+    color: #FFDE00;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000;
+    font-weight: lighter;
+}
+
+.locationsImg {
+    max-height: 100px;
+}
+
